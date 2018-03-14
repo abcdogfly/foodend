@@ -1,0 +1,293 @@
+/*页面底色*/
+/*后台管理系统界面数据*/
+/*导航栏的高度*/
+/*侧边栏的圆*/
+@media (max-width: 999px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1400px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1900px) {
+  html {
+    font-size: 20px;
+  }
+}
+@font-face {
+  font-family: "segoeui";
+  src: url('../font/SegoeWP-Light.ttf');
+}
+@font-face {
+  font-family: "segoe";
+  src: url("../font/segoeuisl.ttf");
+}
+/*
+.header{
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: @head-h;
+  background: url("../img/title_bg.png") no-repeat;
+  background-size: 100% 100%;
+  .title{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:5.25rem;
+    padding-left: 2rem;
+    p{
+      color: #FFFFFF;
+      display: flex;
+      float: left;
+      align-items: center;
+      img{
+        width: 9rem;
+        padding-right: 20px;
+      }
+      span{
+        line-height: 60px;
+        height: 60px;
+        font-size: 1.26rem;
+        font-family: segoeui;
+      }
+    }
+    .title-person{
+      margin-right: 2rem;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+      .t-per-img{
+        width:3.5rem;
+        height: 3.5rem;
+        overflow: hidden;
+        border-radius: 100%;
+        img{
+          display: inline-block;
+          width: 100%;
+        }
+      }
+      .t-per-set{
+        margin-left: 1rem;
+        .set-icon{
+          padding-top: 0.5rem;
+          i{
+            display: inline-block;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+
+  }
+  ul{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #FFFFFF;
+    height: @head-h-title;
+    li{
+      float: left;
+      width: 20%;
+      color: #fff;
+      height: @head-h-title;
+      line-height: @head-h-title;
+      box-sizing: border-box;
+      text-align: center;
+      cursor: pointer;
+    }
+    li:nth-child(1){
+      background: @hrm;
+    }
+    li:nth-child(2){
+      background: @teachingM;
+    }
+    li:nth-child(3){
+      background: @brand;
+    }
+    li:nth-child(4){
+      background: @salesM;
+    }
+    li:nth-child(5){
+      background: @financiaIM;
+    }
+  }
+}
+.main-iframe{
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  right: @ce-w;
+  top: @head-h;
+  bottom: @foot-h;
+}
+.yu-ce{
+  box-sizing: border-box;
+  position: fixed;
+  right: 0;
+  width: @ce-w;
+  top: @head-h;
+  bottom: 0;
+  background: #323232;
+  overflow: auto;
+  ul{
+    li{
+      a{
+        display: flex;
+        color: #FFFFFF;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 15px auto;
+        padding: @ye-ce-w*0.15;
+        width:@ye-ce-w;
+        height: @ye-ce-w;
+        justify-content: center;
+        text-align: center;
+        border: 0.1rem solid #FFFFFF;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+.footer{
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  right:@ce-w;
+  height: @foot-h;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  background: #24211d;
+  &>ul.img{
+    width: 50%;
+    overflow: hidden;
+    li{
+      display: inline-block;
+      height: 100%;
+      float: left;
+      img{
+        display: inline-block;
+        height: 100%;
+        padding: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+  &>ul.notice{
+    width: 50%;
+    padding: 0.5rem;
+    li{
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+}
+*/
+/*登录界面*/
+.login {
+  position: fixed;
+  top: 30%;
+  width: 100%;
+  left: 0;
+}
+.login p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login p img {
+  width: 10rem;
+  margin-right: 5px;
+}
+.login p span {
+  font-family: segoeui;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+}
+.login ul {
+  width: 35rem;
+  margin: 3rem auto 0 auto;
+  position: relative;
+}
+.login ul li {
+  width: 8rem;
+  height: 8rem;
+  top: 0;
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5rem solid #FFFFFF;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: segoeui;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  opacity: 1;
+}
+.login ul li input {
+  display: inline-block;
+  border: 0;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-family: segoeui;
+  outline: none;
+}
+.login ul li input::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-family: segoeui;
+}
+.login ul li input:-moz-placeholder {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-family: segoeui;
+}
+.login ul li input:-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-family: segoeui;
+}
+.login ul li select {
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-family: segoeui;
+  outline: none;
+}
+.login ul li select option {
+  -webkit-appearance: none;
+  background: rgba(0, 0, 0, 0.4);
+}
+.login ul li:nth-child(1) {
+  left: 2.5rem;
+}
+.login ul li:nth-child(2) {
+  left: 13.5rem;
+}
+.login ul li:nth-child(3) {
+  left: 24.5rem;
+}
+.login ul li:nth-child(4) {
+  left: 27rem;
+}
